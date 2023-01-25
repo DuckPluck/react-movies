@@ -6,7 +6,7 @@ export function Header() {
         <div classNameName="nav-wrapper">
           <a href="#" className="brand-logo">React Movies</a>
           <ul id="nav-mobile" className="right hide-on-med-and-down">
-            <li><a href="sass.html">Repo</a></li>
+            <li><a target="_blank" href="https://github.com/DuckPluck/react-movies">Repo</a></li>
           </ul>
         </div>
       </nav>
