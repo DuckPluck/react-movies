@@ -20,11 +20,11 @@ export class Search extends React.Component {
 
   render() {
     return (
-        <div classNameName="row">
-          <div classNameName="input-field">
+        <div className="row">
+          <div className="input-field">
             <input
                 type="search"
-                classNameName="validate"
+                className="validate"
                 value={this.state.search}
                 onChange={(e) => this.setState({search: e.target.value})}
                 onKeyDown={this.handleKey}
